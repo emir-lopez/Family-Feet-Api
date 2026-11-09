@@ -1,0 +1,33 @@
+## Visual Studio / .NET
+.vs/
+.vscode/
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+*.log
+*.tmp
+*.cache
+TestResults/
+publish/
+*.publish.xml
+*.pubxml
+
+## Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+## Secrets and local config (NEVER commit)
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+.env
+
+## OS
+.DS_Store
+Thumbs.db
